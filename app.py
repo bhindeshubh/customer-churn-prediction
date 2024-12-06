@@ -53,5 +53,5 @@ if st.button("Predict"):
     if prediction[0] == 1:
         st.error("The customer is going to leave.")
     elif prediction[0] == 0:
-        st.success("The company will stay.")
+        st.success("The customer will stay.")
         st.balloons()
